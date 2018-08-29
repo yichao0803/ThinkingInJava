@@ -9,7 +9,7 @@ public class StringOperators {
     print(x + " " + s); // Converts x to a String
     s += "(summed) = "; // Concatenation operator
     print(s + (x + y + z));
-    print("" + x); // Shorthand for Integer.toString()
+    print("" + x);    // Shorthand for Integer.toString()
   }
 } /* Output:
 x, y, z 012
