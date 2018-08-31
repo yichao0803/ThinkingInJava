@@ -22,7 +22,7 @@ public class HelloDate {
 		System.out.println(
 				System.getProperty("java.library.path")
 		);
-		System.out.println("ShowProperties1");
+		System.out.println("ShowProperties12");
 	}
 }
 
