@@ -31,5 +31,6 @@ public class Main {
 		System.out.println("-------");
 
 		System.out.println("finished the new footer [issue 1]");
+		System.out.println("finished the new footer featureB");
 	}
 }
