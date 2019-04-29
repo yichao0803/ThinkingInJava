@@ -1,5 +1,5 @@
 package com.bjgoodwill.access;//: access/ImportedMyClass.java
-import access.mypackage.*;
+import com.bjgoodwill.access.mypackage.*;
 
 public class ImportedMyClass {
   public static void main(String[] args) {

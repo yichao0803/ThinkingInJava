@@ -1,6 +1,6 @@
 package com.bjgoodwill.access;//: access/Dinner.java
 // Uses the library.
-import access.dessert.*;
+import com.bjgoodwill.access.dessert.*;
 
 public class Dinner {
   public static void main(String[] args) {

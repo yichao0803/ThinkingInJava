@@ -32,5 +32,14 @@ public class Main {
 
 		System.out.println("finished the new footer [issue 1]");
 		System.out.println("finished the new footer featureB");
+
+		// 1. 【强制】避免通过一个类的对象引用访问此类的静态变量或静态方法,无谓增加编译器解析成本,直接用类名来访问即可
+		// StaticTest.i;
+		StaticTest t1=new StaticTest();
+		System.out.println(t1.i);
+		System.out.println(StaticTest.i);
+		StaticTest.i++;
+		System.out.println(t1.i);
+		System.out.println(StaticTest.i);
 	}
 }
